@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>[JIX] StackSizeMod [StationeersMods]</Name>
+  <Author>Jixxed</Author>
+  <Version>0.2.5370.24111.1</Version>
+  <!-- Steam description using steam styling tags for Steam workshop page -->
+  <Description>[h1]StackSizeMod[/h1]
+    [b]WARNING:[/b] This is a StationeersMods Plugin Mod. It requires Bepinex to be installed with the StationeersMods plugin.
+    See: https://github.com/jixxed/StationeersMods
+
+    This mod allows you to configure the stack size of any Stackable item in the game. It is dynamic, so any new items are automatically supported.
+  </Description>
+  <!-- Ingame Description using TMP tags for Workshop menu -->
+  <InGameDescription>
+    <![CDATA[<size="30"><color=#ffa500> StackSizeMod </color></size>
+<b>WARNING:</b> <color=#ff0000>This is a StationeersMods Plugin Mod. It requires Bepinex to be installed with the StationeersMods plugin.</color>
+See: https://github.com/jixxed/StationeersMods
+
+This mod allows you to configure the stack size of any Stackable item in the game. It is dynamic, so any new items are automatically supported.
+]]>
+  </InGameDescription>
+  <!-- All contents of ChangeLog should be changed for each publication for Steam workshop page -->
+  <ChangeLog>
+    [h3]Version 0.2.5370.24111.1:[/h3]
+    [list]
+    [*]Initial release
+    [/list]
+  </ChangeLog>
+  <!-- StationeersMods and BepInEx tags for Steam workshop page will be automatically added by the framework when publishing -->
+  <Tags>
+    <Tag>StationeersMods</Tag>
+  </Tags>
+  <!-- Automatic downloads of dependencies -->
+  <Dependencies />
+  <!-- Automatic reordering of the mods list -->
+  <LoadBefore />
+  <LoadAfter />
+</ModMetadata>

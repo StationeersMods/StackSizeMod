@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2c8f48e1-6e90-42c4-9893-4943a434a245}") = "StackSizeMod", "StackSizeMod.csproj", "{2c8f48e1-6e90-42c4-9893-4943a434a244}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2c8f48e1-6e90-42c4-9893-4943a434a244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2c8f48e1-6e90-42c4-9893-4943a434a244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2c8f48e1-6e90-42c4-9893-4943a434a244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2c8f48e1-6e90-42c4-9893-4943a434a244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
