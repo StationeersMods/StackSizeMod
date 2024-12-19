@@ -9,6 +9,8 @@
     See: https://github.com/jixxed/StationeersMods
 
     This mod allows you to configure the stack size of any Stackable item in the game. It is dynamic, so any new items are automatically supported.
+    
+    Source code available at: https://github.com/StationeersMods/StackSizeMod
   </Description>
   <!-- Ingame Description using TMP tags for Workshop menu -->
   <InGameDescription>
@@ -17,6 +19,8 @@
 See: https://github.com/jixxed/StationeersMods
 
 This mod allows you to configure the stack size of any Stackable item in the game. It is dynamic, so any new items are automatically supported.
+
+Source code available at: https://github.com/StationeersMods/StackSizeMod
 ]]>
   </InGameDescription>
   <!-- All contents of ChangeLog should be changed for each publication for Steam workshop page -->
@@ -26,6 +30,7 @@ This mod allows you to configure the stack size of any Stackable item in the gam
     [*]Initial release
     [/list]
   </ChangeLog>
+  <WorkshopHandle>3387476142</WorkshopHandle>
   <!-- StationeersMods and BepInEx tags for Steam workshop page will be automatically added by the framework when publishing -->
   <Tags>
     <Tag>StationeersMods</Tag>
