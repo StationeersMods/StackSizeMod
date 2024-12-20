@@ -25,7 +25,7 @@ namespace StackSizeMod
                         string section = dynamicThing ? dynamicThing.SortingClass.ToString() : "Other";
                         
                         ConfigEntry<int> configStackSize = Config.Bind(section,
-                            prefab.name + " Stack Size",
+                            prefab.DisplayName + " Stack Size",
                             stackable.MaxQuantity,
                             new ConfigDescription("Size of the stack for " + prefab.name + "\nDefault: " + stackable.MaxQuantity, new AcceptableValueRange<int>(1, 500)));
                         configStackSize.SettingChanged += (sender, args) =>
@@ -33,7 +33,7 @@ namespace StackSizeMod
                             if(configStackSize.Value > 0)
                                 stackable.MaxQuantity = configStackSize.Value;
                         };
-                        
+                        stackable.MaxQuantity = configStackSize.Value;
                         stackables.Add(stackable, configStackSize);
                     }
                 }

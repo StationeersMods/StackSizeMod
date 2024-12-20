@@ -2,7 +2,7 @@
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>[JIX] StackSizeMod [StationeersMods]</Name>
   <Author>Jixxed</Author>
-  <Version>0.2.5370.24111.1</Version>
+  <Version>0.2.5370.24111.2</Version>
   <!-- Steam description using steam styling tags for Steam workshop page -->
   <Description>[h1]StackSizeMod[/h1]
     [b]WARNING:[/b] This is a StationeersMods Plugin Mod. It requires Bepinex to be installed with the StationeersMods plugin.
@@ -25,9 +25,9 @@ Source code available at: https://github.com/StationeersMods/StackSizeMod
   </InGameDescription>
   <!-- All contents of ChangeLog should be changed for each publication for Steam workshop page -->
   <ChangeLog>
-    [h3]Version 0.2.5370.24111.1:[/h3]
+    [h3]Version 0.2.5370.24111.2:[/h3]
     [list]
-    [*]Initial release
+    [*]Set stacksize also on game load, not just on change
     [/list]
   </ChangeLog>
   <WorkshopHandle>3387476142</WorkshopHandle>
